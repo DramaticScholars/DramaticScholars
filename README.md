@@ -1,16 +1,25 @@
-## Hi there 👋
+# Rabbit Hole GitHub Pages Prototype
 
-<!--
-**DramaticScholars/DramaticScholars** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is a static HTML/CSS prototype based on the supplied navigation diagram.
 
-Here are some ideas to get you started:
+## Navigation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Main page → Bulletin Board → B1-B6 sections
+
+Additional paths:
+- Library → Terms of Use
+- Private Chambers → B8 → One Dude's Room
+- Tunnel → Locked page
+- Kitchen → News/Polls
+- Armory → Resources
+
+## Publish with GitHub Pages
+
+1. Create a GitHub repository.
+2. Upload all files from this folder.
+3. Make sure `index.html` is in the publishing root.
+4. In the repository, open **Settings → Pages**.
+5. Choose the branch/folder containing these files and save.
+6. GitHub Pages will publish the site.
+
+GitHub Pages hosts static HTML, CSS, and JavaScript files directly from a repository.
