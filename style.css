@@ -20,7 +20,7 @@ body {
 .page {
     min-height: 100vh;
     width: min(1000px, 92vw);
-    margin: auto;
+    margin: 0;
     padding: 40px 20px;
 }
 .hole-background {
