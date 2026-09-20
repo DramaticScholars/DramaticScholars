@@ -25,23 +25,23 @@ body {
 }
 
 .center-page {
-    background-image: url("images/bulletin.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .portal {
+    background-image: url("images/bulletin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: min(560px, 90vw);
     height: 420px;
     border: 1px solid #aaa;
     display: grid;
     place-items: center;
-    background: #151515;
 }
 
 .portal-ring {
