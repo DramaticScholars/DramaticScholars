@@ -81,6 +81,21 @@ body {
         transform: translateY(-2px);
     }
 
+.image-button {
+    display: inline-block;
+}
+
+    .image-button img {
+        display: block;
+        width: 200px;
+        height: auto;
+        transition: transform 0.2s ease, filter 0.2s ease;
+    }
+
+    .image-button:hover img {
+        transform: scale(1.05);
+        filter: brightness(1.2);
+    }
 header {
     border-bottom: 1px solid #777;
     padding-bottom: 18px;
