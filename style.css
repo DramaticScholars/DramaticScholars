@@ -19,9 +19,9 @@ body {
 
 .page {
     min-height: 100vh;
-    width: min(1000px, 92vw);
+    width: 100%;
     margin: 0;
-    padding: 40px 20px;
+    padding: 20px;
 }
 .hole-background {
     background-image: url("images/Entrance of Rabbit Hole.png");
