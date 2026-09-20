@@ -23,13 +23,14 @@ body {
     margin: auto;
     padding: 40px 20px;
 }
-
-.center-page {
+.hole-background {
     background-image: url("images/Entrance of Rabbit Hole.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.center-page {
     display: flex;
     align-items: center;
     justify-content: center;
