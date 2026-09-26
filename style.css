@@ -7,13 +7,13 @@ body {
     margin: 0;
     min-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background: #111;
+    background: #0b0800;
     color: #eee;
 }
 
 body {
-    background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
-    background-size: 24px 24px;
+    #background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    #background-size: 24px 24px;
 }
 
 .page {
@@ -24,7 +24,7 @@ body {
 }
 
 .hole-background {
-    background: url("images/Entrance of Rabbit Hole.png") center / cover no-repeat fixed;
+    background: url("images/Entrance_of_Rabbit_Hole.png") center / cover no-repeat fixed;
 }
 
 .center-page {
@@ -36,20 +36,22 @@ body {
 /* Portal */
 
 .portal {
-    width: min(560px, 90vw);
-    height: 420px;
-    border: 1px solid #aaa;
+    width: 600px;
+    height: 500px;
     display: grid;
+    border: none;
     place-items: center;
+    background: transparent;
 }
 
 .portal-ring {
     width: 300px;
     height: 300px;
-    border: 1px solid #aaa;
+    border: none;
     border-radius: 50%;
     display: grid;
     place-items: center;
+    background: transparent;
 }
 
 /* Buttons */
@@ -61,10 +63,10 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: transparent;
     text-decoration: none;
-    border: 1px solid #aaa;
-    background: #151515;
+    border: none;
+    background: transparent;
     transition: .18s ease;
 }
 
