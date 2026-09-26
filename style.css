@@ -39,6 +39,8 @@ body {
 .door-button {
     position: absolute;
     inset: 0;
+    display: block;
+    z-index: 100;
     /* Invisible */
     background: transparent;
     border: none;
