@@ -202,11 +202,21 @@ h1 {
 
     .portal {
         height: 340px;
+        /* Invisible */
+        border: none;
+        background: transparent;
+        text-decoration: none;
+        color: transparent;
     }
 
     .portal-ring {
         width: 240px;
         height: 240px;
+        /* Invisible */
+        border: none;
+        background: transparent;
+        text-decoration: none;
+        color: transparent;
     }
 
     .big-button {
