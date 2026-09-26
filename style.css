@@ -17,9 +17,10 @@ body {
 }
 
 .page {
-    width: min(1000px, 92vw);
+    #width: min(1000px, 92vw);
     position: relative;
     min-height: 100vh;
+
     margin: auto;
     padding: 40px 20px;
 }
@@ -67,17 +68,7 @@ body {
         transform: translateY(-2px);
     }
 
-.big-button {
-    width: 180px;
-    height: 90px;
-    padding: 10px;
 
-    /* Invisible */
-    border: none;
-    background: transparent;
-    text-decoration: none;
-    color: transparent;
-}
 
 .nav-button {
     height: 120px;
@@ -184,11 +175,7 @@ h1 {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
     }
-    
-    .big-button {
-        width: 160px;
-        height: 80px;
-    }
+   
 }
 
 /* Small Mobile */
